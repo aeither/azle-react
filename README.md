@@ -4,10 +4,9 @@ This template gives you everything you need to build a full-stack Web3 applicati
 It includes a frontend built with Vite and React, and a backend written in JS/TS (Azle).
 
 ## Get started with one click:
-
 ### In your browser:
 
-In Gitpod
+In Gitpod 
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/fxgst/azle-react/)
 
@@ -15,11 +14,13 @@ or GitHub Codespaces
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fxgst/azle-react/?quickstart=1)
 
+
 ### Locally:
 
-Make sure you have you have the latest version of Docker (e.g. >25) and VS Code installed and running, then click the button below
+Make sure you have you have Docker and VS Code installed and running, then click the button below
 
 [![Open locally in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/fxgst/azle-react)
+
 
 ## 🚀 Develop
 
@@ -32,7 +33,7 @@ dfx deploy # Deploy canisters locally
 npm start # Start the development server
 ```
 
-The frontend will update automatically as you save changes.
+The frontend will update automatically as you save changes. 
 For the backend, run `dfx deploy backend` to redeploy.
 To redeploy all canisters (front- and backend), run `dfx deploy`.
 
@@ -56,6 +57,7 @@ When ready, run `dfx deploy --network ic` to deploy your application to the ICP 
 - [`dfx.json` reference schema](https://internetcomputer.org/docs/current/references/dfx-json-reference/)
 - [Azle developer docs](https://internetcomputer.org/docs/current/developer-docs/backend/typescript/)
 - [Developer Experience Feedback Board](https://dx.internetcomputer.org/)
+
 
 ## 💡 Tips and Tricks
 
